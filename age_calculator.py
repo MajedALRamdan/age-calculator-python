@@ -15,7 +15,7 @@ def get_age(dob):
 	...
 today=date.today()
 age=today-dob
-aiy=str(age.days//365)
+aiy=age.days//365
 if int(aiy)<0:
 	print("Invalid date of birth")
 else:
