@@ -19,7 +19,7 @@ aiy=str(age.days//365)
 if age.days//365<0:
 	print("Invalid date of birth")
 else:
-	print(f"You are {aiy} +years old")
+	print(f"You are {aiy} years old")
  
 
 
